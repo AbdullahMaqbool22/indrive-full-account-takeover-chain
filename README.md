@@ -2,7 +2,7 @@
 ### Hardcoded RSA-512 Signing Key + Missing Server-Side CAPTCHA Validation + Unthrottled OTP Brute-Force
 
 ![Severity](https://img.shields.io/badge/Severity-Critical-red)
-![CVSS](https://img.shields.io/badge/CVSS%203.1-9.x-red)
+![CVSS](https://img.shields.io/badge/CVSS%203.1-9.4-red)
 ![Status](https://img.shields.io/badge/Status-Reported-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Web-blue)
 ![Program](https://img.shields.io/badge/Program-HackerOne-orange)
