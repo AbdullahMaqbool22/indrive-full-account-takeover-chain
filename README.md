@@ -52,13 +52,13 @@ Chained together, an attacker can request an OTP for any phone number, bypass CA
 ## Vulnerability Chain
 
 ```
-┌─────────────────────────────┐
+┌──────────────────────────────┐
 │ 1. Extract hardcoded RSA-512 │
 │    key from public JS bundle │
 └──────────────┬───────────────┘
                │
                ▼
-┌─────────────────────────────┐
+┌──────────────────────────────┐
 │ 2. Forge valid X-Signature   │
 │    → bypass CAPTCHA check    │
 │    → trigger OTP SMS to any  │
@@ -66,7 +66,7 @@ Chained together, an attacker can request an OTP for any phone number, bypass CA
 └──────────────┬───────────────┘
                │
                ▼
-┌─────────────────────────────┐
+┌──────────────────────────────┐
 │ 3. Brute-force 4-digit OTP   │
 │    (10,000 combos, no        │
 │    lockout, ~69s+ validity)  │
@@ -157,7 +157,7 @@ This vulnerability was reported responsibly through indrive's official [HackerOn
 ## Researcher
 
 **Abdullah Maqbool** — Penetration Testing Engineer, Certified CRTA / CRTOM / CASP / PenTest+
-[LinkedIn] · [Upwork Top 10%] · [TryHackMe Top 1%]
+[LinkedIn](https://www.linkedin.com/in/abdullahmaqboolahmed/) · [Upwork Top 10%](https://www.upwork.com/freelancers/~01bfe8eb3bbb8b493b) · [TryHackMe Top 1%](https://tryhackme.com/p/trixycon)
 
 ---
 
